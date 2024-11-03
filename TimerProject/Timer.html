@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> Digital Clock</title>
+        <link rel="stylesheet" href="Timer.css">
+    </head>
+    <body>
+        <main class="container">
+            <h1 class="day" id="day"></h1>
+            <div class="box">
+                <div class="Clock">
+                    <div class="front-clock">
+                        <div id="hour">00</div>
+                        <p>Hours</p>
+                    </div>
+                </div>
+
+                
+                    <div class="Clock">
+                        <div class="front-clock">
+                            <div id="minute">00</div>
+                            <p>Minutes</p>
+                        </div>
+                    </div>
+                    
+
+                        <div class="dall">
+                            <div class="front-clock">
+                                <div id="second">00</div>
+                                <p>Seconds</p>
+                            </div>
+                        </div>
+                        
+                    
+            </div>
+
+        </main>
+        <script src="Timer.js"></script>
+    </body>
+</html>
